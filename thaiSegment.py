@@ -11,11 +11,6 @@ Created on Tue Aug 22 23:12:40 2013
 # instructor: Jim White
 """
 
-# sets the default encoding to UTF-8 to make Thai readable
-import sys
-reload(sys)
-sys.setdefaultencoding("UTF-8")
-
 import codecs
 
 # uses the codecs to open the input file and split on new lines
